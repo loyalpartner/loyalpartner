@@ -1,6 +1,6 @@
 # 你好，我是 lee 👋
 
-**Linux 桌面平台工程师。** 整个栈我都做 — 从内核侧（用 Aya 写 eBPF）一路到 Wayland 合成器和 GPU 渲染的桌面 shell。Rust 全栈，Zig 用在合适的地方。
+**Linux 桌面平台工程师。** 整个栈我都做 — 从 eBPF（用 Aya）到 Wayland 合成器，再到 GPU 渲染的桌面 shell。Rust 全栈，Zig 用在合适的地方。
 
 📍 成都 · 📧 charlselee59@gmail.com · 👀 想换工作
 
@@ -38,7 +38,7 @@
 
 **Linux 桌面整层栈，从 BPF 到 GPU 渲染都自己做过，没有断点。**
 
-- **写过 2 个 Wayland 合成器** —— `rway`（Sway 兼容，Rust + Smithay，4 层 crate 架构、~342 测试、复用 sway 配置 / `swaymsg` / waybar）和 `emskin`（嵌 Emacs 的 Wayland 合成器，**44⭐**，跨 GNOME / KDE / Sway / COSMIC）。X11 (Xorg) 和 Wayland (Smithay / wlroots / KWin) **两侧源码都通读过**
+- **写过 2 个 Wayland 合成器** —— `rway`（Sway 兼容，Rust + Smithay，4 层 crate 架构、~342 测试、复用 sway 配置 / `swaymsg` / waybar）和 `emskin`（嵌 Emacs 的 Wayland 合成器，跨 GNOME / KDE / Sway / COSMIC）。X11 (Xorg) 和 Wayland (Smithay / wlroots / KWin) **两侧源码都通读过**
 - **企业安全桌面整套隔离能力都自己写过** —— namespace 隔离、网络虚拟化、剪切板 / 打印机 / D-Bus 隔离、防截屏（用自写的 `puck` 注入器实现）、窗口水印；docker / firejail / bwrap 都研究过
 - **eBPF 落到生产** —— Aya 写过进程监控和网络流量监控、Cilium 用过、BPF 驱动的沙箱设计落到产品里。**同一种语言（Rust）从用户态 daemon 一路打到内核态 BPF 程序**
 - **给 Vim 写过一个 IDE 后端** —— `yac.vim`：Zig daemon 实现 LSP + tree-sitter + DAP + Copilot + fuzzy picker，自带 18 种语言。明确不支持 Neovim（设计选择）
@@ -57,6 +57,6 @@
 
 ## 联系
 
-在听 **Linux 桌面平台 / 安全 / 沙盒 / 系统级 Rust** 相关方向的机会。
+在找 **Linux 桌面平台 / 安全 / 沙盒 / 系统级 Rust** 方向的新工作，欢迎邮件联系。
 
 📧 charlselee59@gmail.com
