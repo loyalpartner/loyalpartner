@@ -2,7 +2,7 @@
 
 **Linux 桌面平台工程师。** 整个栈我都做 — 从内核侧（用 Aya 写 eBPF）一路到 Wayland 合成器和 GPU 渲染的桌面 shell。Rust 全栈，Zig 用在合适的地方。
 
-📍 成都 · 📧 charlselee58@gmail.com · 👀 想换工作
+📍 成都 · 📧 charlselee59@gmail.com · 👀 想换工作
 
 ---
 
@@ -44,7 +44,6 @@
 - **给 Vim 写过一个 IDE 后端** —— `yac.vim`：Zig daemon 实现 LSP + tree-sitter + DAP + Copilot + fuzzy picker，自带 18 种语言。明确不支持 Neovim（设计选择）
 - **Linux 桌面平台履历完整** —— 在一家操作系统公司做过 Chromium OS、期间推过一款浏览器，现在做企业级 Linux 安全桌面
 
-也做过 Windows 驱动开发、Frida 风格的 Linux 进程注入。
 
 ---
 
@@ -60,4 +59,4 @@
 
 在听 **Linux 桌面平台 / 安全 / 沙盒 / 系统级 Rust** 相关方向的机会。
 
-📧 charlselee58@gmail.com
+📧 charlselee59@gmail.com
