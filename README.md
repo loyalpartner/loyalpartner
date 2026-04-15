@@ -24,8 +24,8 @@
 
 | 项目 | 一句话 |
 |---|---|
-| [**emskin**](https://github.com/loyalpartner/emskin) | 一个把 Emacs 当窗口宿主的 Wayland 合成器，让任意 Wayland/X11 程序作为 buffer 嵌入 Emacs。GNOME / KDE / Sway / COSMIC 全支持 |
-| [**rway**](https://github.com/loyalpartner/rway) | Rust + Smithay 写的 **Sway 兼容 Wayland 合成器**。四层 crate 架构、~342 测试、复用 sway 配置 / `swaymsg` / waybar |
+| [**emskin**](https://github.com/loyalpartner/emskin) | 基于 Smithay 的嵌套 Wayland 窗口管理器，把 Emacs 当窗口宿主，让任意 Wayland/X11 程序作为 buffer 嵌入 Emacs。GNOME / KDE / Sway / COSMIC 全支持 |
+| [**rway**](https://github.com/loyalpartner/rway) | Rust + Smithay 写的 **Sway 兼容 Wayland 平铺窗口管理器**。四层 crate 架构、~342 测试、复用 sway 配置 / `swaymsg` / waybar |
 | [**yac.vim**](https://github.com/loyalpartner/yac.vim) | 给 Vim 写的现代 IDE 后端 —— Zig daemon + LSP + tree-sitter + DAP + Copilot，自带 18 种语言。**仅 Vim，不支持 Neovim**（明确选择） |
 | [**zskins**](https://github.com/loyalpartner/zskins) | 用 GPUI（Zed 的 GPU UI 框架）写的 Wayland 桌面三件套：状态栏 + launcher + 剪贴板后台 |
 | [**puck**](https://github.com/loyalpartner/puck) | Frida 风格的 Linux 进程注入器（Rust）。**生产场景：用它实现 X11 防截屏**。x86_64 + aarch64 |
@@ -36,7 +36,7 @@
 
 ## 做过的方向
 
-- 写过两个 Wayland 合成器：`rway`（Sway 兼容）和 `emskin`（嵌 Emacs）。Xorg 和 KWin 源码读过
+- 写过两个 Wayland 窗口管理器：`rway`（Sway 兼容平铺式）和 `emskin`（嵌套式，把 Emacs 当窗口宿主）。Xorg 和 KWin 源码读过
 - 桌面隔离做过几个方向：namespace、网络虚拟化、剪贴板、打印机、D-Bus、防截屏（用自写的 `puck` 注入器）、水印
 - eBPF 用在生产环境：Aya / Cilium，做进程监控、网络监控、BPF 驱动的沙箱
 - 给 Vim 写过 IDE 后端 `yac.vim`：Zig daemon + LSP / DAP / tree-sitter / Copilot，18 种语言
