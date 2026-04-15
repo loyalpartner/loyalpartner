@@ -1,26 +1,26 @@
 # 你好，我是 lee 👋
 
-**Linux 桌面平台工程师。** 整个栈我都做 — 从 eBPF（用 Aya）到 Wayland 合成器，再到 GPU 渲染的桌面 shell。Rust 全栈，Zig 用在合适的地方。
+在 Linux 桌面栈上写代码 — 从 eBPF（用 Aya）到 Wayland 合成器，再到 GPU 渲染的桌面 shell。Rust 用得多，Zig 用在合适的地方。
 
 📍 成都 · 📧 charlselee59@gmail.com · 👀 想换工作
 
 ---
 
-## 我做过的事
+## 经历
 
 整个职业生涯都在 Linux 桌面平台层，分三段：
 
 - 在一家操作系统公司做 **Chromium OS** —— 系统底层 + ChromeOS 衍生发行 + 浏览器发布
-- **期间主导/参与发布过一款浏览器**
+- 期间参与过一款浏览器的发布
 - 现在做 **企业级 Linux 安全桌面** —— namespace 隔离、网络虚拟化、剪切板 / 打印机 / D-Bus 隔离、防截屏、窗口水印、BPF 驱动的进程与网络监控
 
 三段工作的共同点：每一段都在让 Linux 桌面**更可控、更可隔离**。
 
 ---
 
-## 旗舰项目（兴趣驱动 · 全部开源）
+## 一些公开项目（兴趣驱动）
 
-我写代码是为了验证想法，下面这些是我反复回去打磨的：
+写代码主要是为了验证想法，下面是反复回去打磨的几个：
 
 | 项目 | 一句话 |
 |---|---|
@@ -34,15 +34,13 @@
 
 ---
 
-## 武器库
+## 做过的方向
 
-**Linux 桌面整层栈，从 BPF 到 GPU 渲染都自己做过，没有断点。**
-
-- 写过 2 个 Wayland 合成器：`rway`（Sway 兼容）和 `emskin`（嵌 Emacs）。Xorg 和 KWin 源码都通读过
-- 企业安全桌面整套隔离都做过：namespace、网络虚拟化、剪贴板、打印机、D-Bus、防截屏（用自写的 `puck` 注入器）、水印
-- eBPF 落到生产：Aya / Cilium，做进程监控、网络监控、BPF 驱动的沙箱。Rust 一路从用户态打到 BPF
+- 写过两个 Wayland 合成器：`rway`（Sway 兼容）和 `emskin`（嵌 Emacs）。Xorg 和 KWin 源码读过
+- 桌面隔离做过几个方向：namespace、网络虚拟化、剪贴板、打印机、D-Bus、防截屏（用自写的 `puck` 注入器）、水印
+- eBPF 用在生产环境：Aya / Cilium，做进程监控、网络监控、BPF 驱动的沙箱
 - 给 Vim 写过 IDE 后端 `yac.vim`：Zig daemon + LSP / DAP / tree-sitter / Copilot，18 种语言
-- 履历：Chromium OS → 推过浏览器 → 现在做企业级 Linux 安全桌面
+- 履历：Chromium OS → 参与发布过浏览器 → 企业级 Linux 安全桌面
 
 
 ---
