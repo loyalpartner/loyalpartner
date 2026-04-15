@@ -2,7 +2,7 @@
 
 在 Linux 桌面栈上写代码 — 从 eBPF（用 Aya）到 Wayland 合成器，再到 GPU 渲染的桌面 shell。Rust 用得多，Zig 用在合适的地方。
 
-📍 成都 · 📧 charlselee59@gmail.com · 👀 想换工作
+📍 成都 · 📧 charlselee59@gmail.com · 👀 合约将结束，在看新机会
 
 ---
 
@@ -55,6 +55,6 @@
 
 ## 联系
 
-在找 **Linux 桌面平台 / 安全 / 沙盒 / 系统级 Rust** 方向的新工作，欢迎邮件联系。
+目前合约接近结束，在看 **Linux 桌面平台 / 安全 / 沙盒 / 系统级 Rust** 方向的新机会，欢迎聊聊。
 
 📧 charlselee59@gmail.com
