@@ -34,21 +34,25 @@
 
 ---
 
-## 我的强项
+## 我能干什么
 
-- **沙盒 / 隔离工程** —— docker / firejail / bwrap 都研究过；剪贴板 / 打印机 / D-Bus / 防截屏 / 水印这一整套桌面隔离能力都做过
-- **eBPF 生产级使用** —— Aya、Cilium；进程监控 / 网络流量监控 / BPF 驱动的沙盒设计
-- **Linux 显示服务器栈双修** —— X11 (Xorg) 和 Wayland (Smithay/wlroots/KWin) 两侧源码都通读过；用 Smithay 写过完整合成器；用 GPUI 写过桌面 shell
-- **Rust 全栈** —— 用户态 daemon 到内核态 BPF 程序都用一种语言
-- **Zig 用在该用的地方** —— yac.vim 的 daemon、anytalk-lib
+**Linux 桌面整层栈，从 BPF 到 GPU 渲染都自己做过，没有断点。**
 
-也做过 Windows 驱动开发和 Frida 风格的 Linux 进程注入。
+- **写过 2 个 Wayland 合成器** —— `rway`（Sway 兼容，Rust + Smithay，4 层 crate 架构、~342 测试、复用 sway 配置 / `swaymsg` / waybar）和 `emskin`（嵌 Emacs 的 Wayland 合成器，**44⭐**，跨 GNOME / KDE / Sway / COSMIC）。X11 (Xorg) 和 Wayland (Smithay / wlroots / KWin) **两侧源码都通读过**
+- **企业安全桌面整套隔离能力都自己写过** —— namespace 隔离、网络虚拟化、剪切板 / 打印机 / D-Bus 隔离、防截屏（用自写的 `puck` 注入器实现）、窗口水印；docker / firejail / bwrap 都研究过
+- **eBPF 落到生产** —— Aya 写过进程监控和网络流量监控、Cilium 用过、BPF 驱动的沙箱设计落到产品里。**同一种语言（Rust）从用户态 daemon 一路打到内核态 BPF 程序**
+- **给 Vim 写过一个 IDE 后端** —— `yac.vim`：Zig daemon 实现 LSP + tree-sitter + DAP + Copilot + fuzzy picker，自带 18 种语言。明确不支持 Neovim（设计选择）
+- **Linux 桌面平台履历完整** —— 在一家操作系统公司做过 Chromium OS、期间推过一款浏览器，现在做企业级 Linux 安全桌面
+
+也做过 Windows 驱动开发、Frida 风格的 Linux 进程注入。
 
 ---
 
-## 我的工作方式
+## 我用过的语言
 
-读源码，写代码验证想法，"哪个工具合适用哪个"而不是"哪个熟悉用哪个"。当前默认 **Rust**（系统层全栈）+ **Zig**（要快、无 GC 的 daemon），但每个项目的选择都是按问题来的 —— `zskins` 用 GPUI 是因为 GPU 渲染的 shell 就该用 GPU 渲染框架，不是站队。
+写过生产代码的：**Rust · Zig · Go · C · C++ · Python · Ruby · Vim Script · Shell · Emacs Lisp**（共 10 种）
+
+当前默认 **Rust**（系统层全栈）+ **Zig**（要快、无 GC 的 daemon），但每个项目按问题选语言，不站队。
 
 ---
 
