@@ -38,11 +38,11 @@
 
 **Linux 桌面整层栈，从 BPF 到 GPU 渲染都自己做过，没有断点。**
 
-- **写过 2 个 Wayland 合成器** —— `rway`（Sway 兼容，Rust + Smithay，4 层 crate 架构、~342 测试、复用 sway 配置 / `swaymsg` / waybar）和 `emskin`（嵌 Emacs 的 Wayland 合成器，跨 GNOME / KDE / Sway / COSMIC）。X11 (Xorg) 和 Wayland (Smithay / wlroots / KWin) **两侧源码都通读过**
-- **企业安全桌面整套隔离能力都自己写过** —— namespace 隔离、网络虚拟化、剪切板 / 打印机 / D-Bus 隔离、防截屏（用自写的 `puck` 注入器实现）、窗口水印；docker / firejail / bwrap 都研究过
-- **eBPF 落到生产** —— Aya 写过进程监控和网络流量监控、Cilium 用过、BPF 驱动的沙箱设计落到产品里。**同一种语言（Rust）从用户态 daemon 一路打到内核态 BPF 程序**
-- **给 Vim 写过一个 IDE 后端** —— `yac.vim`：Zig daemon 实现 LSP + tree-sitter + DAP + Copilot + fuzzy picker，自带 18 种语言。明确不支持 Neovim（设计选择）
-- **Linux 桌面平台履历完整** —— 在一家操作系统公司做过 Chromium OS、期间推过一款浏览器，现在做企业级 Linux 安全桌面
+- 写过 2 个 Wayland 合成器：`rway`（Sway 兼容）和 `emskin`（嵌 Emacs）。Xorg 和 KWin 源码都通读过
+- 企业安全桌面整套隔离都做过：namespace、网络虚拟化、剪贴板、打印机、D-Bus、防截屏（用自写的 `puck` 注入器）、水印
+- eBPF 落到生产：Aya / Cilium，做进程监控、网络监控、BPF 驱动的沙箱。Rust 一路从用户态打到 BPF
+- 给 Vim 写过 IDE 后端 `yac.vim`：Zig daemon + LSP / DAP / tree-sitter / Copilot，18 种语言
+- 履历：Chromium OS → 推过浏览器 → 现在做企业级 Linux 安全桌面
 
 
 ---
