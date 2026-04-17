@@ -12,6 +12,7 @@
 - [**zskins**](https://github.com/loyalpartner/zskins) — 用 GPUI（Zed 的 GPU UI 框架）写的 Wayland 桌面三件套：状态栏 + launcher + 剪贴板后台
 - [**puck**](https://github.com/loyalpartner/puck) — Frida 风格的 Linux 进程注入器（Rust）。已用于生产的 X11 防截屏实现，x86_64 + aarch64
 - [**dbus-router**](https://github.com/loyalpartner/dbus-router) — 沙盒应用用的 dual-upstream D-Bus router，按规则把消息路由到 host bus 或 sandbox bus
+- [**selfsync**](https://github.com/loyalpartner/selfsync) — 自托管 Chrome Sync 服务器（Rust + SQLite），实现 Chrome 原生同步协议，`--sync-url` 指过去即可。书签 / 密码 / 偏好不出本地
 - [**fcitx5-anytalk**](https://github.com/loyalpartner/fcitx5-anytalk) — fcitx5 语音输入插件（C++ + Zig），接火山引擎 ASR
 
 日常主力 **Rust**（系统层全栈）和 **Zig**（要性能、无 GC 的 daemon），也写过生产代码的还有 Go / C / C++ / Python / Ruby / Vim Script / Shell / Emacs Lisp。按问题选语言。
