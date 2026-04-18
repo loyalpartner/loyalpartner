@@ -19,3 +19,13 @@
 
 📍 成都，工作地点不限 · 📧 charlselee59@gmail.com
 现合约即将到期，在看 Linux 桌面平台 / 安全 / 沙盒 / 系统级 Rust 方向的机会，欢迎聊。
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=emskin%2Femskin%2Cloyalpartner%2Fselfsync&type=timeline&logscale=&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=emskin/emskin%2Cloyalpartner/selfsync&type=timeline&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=emskin/emskin%2Cloyalpartner/selfsync&type=timeline&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=emskin/emskin%2Cloyalpartner/selfsync&type=timeline&legend=top-left" />
+ </picture>
+</a>
